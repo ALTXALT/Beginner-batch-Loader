@@ -1,0 +1,15 @@
+@echo off
+color 4
+
+@echo Downloading assets
+@echo Loading...
+@echo Loaded!
+@echo ================================================
+@echo Starting Loader
+@echo ================================================
+PAUSE
+start "c:\windows\system32" notepad.exe # Path Then file name, Makes sure to include the extension, ex: .exe .txt. bat .pdf, etc    # This pause is only if u want to start another application without It closing Right away! PAUSE
+start "c:\windows\system32" notepad.exe   # Path Then file name, Makes sure to include the extension, ex: .exe .txt. bat .pdf, etc
+#ALL OF THE FILES U WANT TO START MUST BE IN A FOLDER, Cant be in downloads, documents, pictures, ETC, Make a folder for them or put then in a random folder.
+
+Thanks
